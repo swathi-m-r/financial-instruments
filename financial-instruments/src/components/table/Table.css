@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse;
+    border-radius: 2px;
+    margin: 24px;
+    width:90%;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 4px 16px 4px 8px; 
+  }
+
+  .equities-blue {
+    background-color: blue;
+  }
+ 
+  .credit-green {
+    background-color: green;
+  }
+
+  .macro-white {
+    background-color: white;
+  }
+
+  .price_positive {
+    color: black;
+  }
+
+  .price_negative {
+    color : red;
+  }
