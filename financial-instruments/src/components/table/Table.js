@@ -39,7 +39,7 @@ const Table = () => {
                 return -1
             return 0
         })
-        setTableData(newData)
+        setTableData([...newData])
 
     }
 
