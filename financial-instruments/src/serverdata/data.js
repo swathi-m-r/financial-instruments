@@ -1,14 +1,14 @@
 export const financialInstrumentList = 
 [
-    {
-        "ticker": "BETA",
-        "price": 3791.37,
-        "assetClass": "Equities"
-      },
   {
     "ticker": "ALPHA",
-    "price": -3150.67,
+    "price": 3150.67,
     "assetClass": "Credit"
+  },
+  {
+    "ticker": "BETA",
+    "price": 3791.37,
+    "assetClass": "Equities"
   },
   {
     "ticker": "GAMMA",

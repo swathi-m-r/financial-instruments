@@ -26,7 +26,7 @@ const Table = () => {
             setSortOrder('asc')
             newData = tableData.sort((a, b) => { return b?.price - a?.price })
         }
-        setTableData(newData)
+        setTableData([...newData])
     }
     /**
      * Method to sort Ticket
